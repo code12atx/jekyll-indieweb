@@ -8,6 +8,9 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -28,18 +31,25 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    json (1.8.6)
     kramdown (1.13.2)
+    link_header (0.0.8)
     liquid (3.0.6)
     listen (3.0.6)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
     mercenary (0.3.6)
+    mini_portile2 (2.2.0)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
     octokit (4.7.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
+    rake (12.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
@@ -49,6 +59,11 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
+    webmention (0.1.5)
+      httparty (~> 0.13.1)
+      json
+      link_header (~> 0.0.8)
+      nokogiri
 
 PLATFORMS
   ruby
@@ -58,6 +73,8 @@ DEPENDENCIES
   jekyll-gist
   jekyll-paginate
   jekyll-seo-tag
+  rake
+  webmention
 
 BUNDLED WITH
    1.15.1
