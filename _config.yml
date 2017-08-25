@@ -38,7 +38,6 @@ author_img: https://avatars3.githubusercontent.com/u/3083652
 markdown: kramdown
 gems:
   - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-gist
 
 paginate: 5
