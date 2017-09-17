@@ -11,7 +11,7 @@ title: Jekyll-IndieWeb
 email: your-email@domain.com
 description: A Jekyll quick start to getting up and going with the indieweb.
 # Webmentions - leave blank (remove "yes") if you would not like to receive & display webmentions from other sites
-webmentions:
+webmentions: yes
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tbbrown.net" # the base hostname & protocol for your site
