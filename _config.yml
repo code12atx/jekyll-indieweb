@@ -16,7 +16,7 @@ webmentions: yes
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tbbrown.net" # the base hostname & protocol for your site
 twitter_username: superborrownet
-github_username:  jekyll
+github_username:  superborrownet
 instagram_username: jekyll
 flickr_username: jekyll
 foursquare_username:
